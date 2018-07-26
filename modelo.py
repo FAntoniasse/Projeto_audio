@@ -143,8 +143,7 @@ def test(X_train: np.ndarray, y_train: np.ndarray, std_scale: preprocessing.data
         
         correct1NN = 0
         correctSVM = 0
-        correctQDA = 0
-        correctLDA = 0
+        
        
         folder = folder+'/'
         
