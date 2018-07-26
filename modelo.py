@@ -1,3 +1,15 @@
+
+import numpy as np
+import pandas as pd
+import os
+import librosa
+import librosa.display
+from tqdm import tqdm
+tqdm.pandas()
+from sklearn import preprocessing
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
+from sklearn.ensemble import RandomForestClassifier
 from spectrum import get_spectrum
 from math import fabs
 import scipy
